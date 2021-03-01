@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Heebo', sans-serif;
+	font-size: 16px;
+}
+
+body {
+	background: #FFCCFF;
+	color: rgb(0, 0, 0);
+}
+
+.container {
+	width: 600px;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 40px;
+}
+
+.block {
+	background: #009966;
+	width: 500px;
+	height: 380px;
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+.info {
+	color: #fff;
+	width: 300px;
+}
+
+.block-inner {
+	display: flex;
+	margin-top: 70px;
+}
+
+.card-value {
+	outline: none;
+	border: none;
+	width: 40px;
+	height: 35px;
+	border: 1px solid #006633;
+	padding-left: 7px;
+	font-size: 20px;
+}
+
+.btn {
+	display: block;
+	width: 150px;
+	height: 45px;
+	border: 1px solid #003300;
+	color: #fff;
+	background: #006633;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-left: 140px;
+	outline: none;
+	cursor: pointer;
+}
+
+.field {
+	outline: 4px solid rgb(224, 202, 202);
+	width: 300px;
+	height: 300px;
+	margin-left: 70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell-elem {
+	border: 2px solid rgb(224, 202, 202);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+span {
+	font-size: 20px;
+}
+
+.hidden {
+display: none;
+}
+
+.cell-elem.paint {
+	background-color: #fff;
+}
+
+.again-btn {
+	margin-top: 60px;
+}
+
+.end-block {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 90px;
+	margin-left: -38px;
+	text-align: center;
+}
+
+
